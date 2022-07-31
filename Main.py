@@ -3,7 +3,6 @@ class Stack:
     def __init__(self, size):
         self.items = []
         self.size = size
-        
 
     def is_empty(self):
         
