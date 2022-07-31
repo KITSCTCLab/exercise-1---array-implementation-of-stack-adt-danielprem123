@@ -1,6 +1,6 @@
 import os
 class Stack:
-    def _init_(self, size):
+    def __init__(self, size):
         self.items = [None]*size
         self.size = size
         self.top = -1
@@ -39,4 +39,4 @@ for line in range(queries):
         stack.push(values[1])
     elif values[0] == 2:
         stack.pop()
-stack.status()
+stack.status(
