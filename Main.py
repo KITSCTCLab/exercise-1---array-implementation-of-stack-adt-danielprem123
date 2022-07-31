@@ -3,12 +3,14 @@ class Stack:
     def __init__(self, size):
         self.items = []
         self.size = size
+        
 
     def is_empty(self):
-        return len(self.items) == 0
+        
+        return len(self.items)==0
 
     def is_full(self):
-        return len(self.items) == size
+        return len(self.items)==size
 
     def push(self, data):
         if not self.is_full():
